@@ -19,17 +19,12 @@ const styles = StyleSheet.create({
         textAlign:"center",
     },
 
-    input:{
-        height: 40,
-        width: 250,    },
-
     div:{
-        flex:1,
-        justifyContent:'center',
-        alignItems:'center',
-        backgroundColor: '#fff',
-        height:100,
-
+        marginTop:20,
+        width:"75%",
+        height:"50%",
+        backgroundColor:'#fff',
+        borderRadius:20,
     }
 
     });

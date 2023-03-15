@@ -15,17 +15,18 @@ const styles = StyleSheet.create({
     },
 
     texto:{
-        color:'#0CE9C1',
+        color:'#000',
         textAlign:"center",
+        fontSize:20,
     },
 
     div:{
         marginTop:20,
         width:"75%",
         height:"50%",
-        backgroundColor:'#fff',
+        backgroundColor:'#81FFDB',
         borderRadius:20,
-    }
+    },
 
     });
 

@@ -18,14 +18,15 @@ export default function HomeScreen() {
         Ação Solidaria
       </Text>
 
-      <TouchableOpacity style={styles.btnSubmit}>
-        <Text style={styles.textSubmit}>Login</Text>
-      </TouchableOpacity>
+      <View style={styles.btnGroup}>
+        <TouchableOpacity style={styles.btnSubmit}>
+          <Text style={styles.textSubmit}>Login</Text>
+        </TouchableOpacity>
 
-      <TouchableOpacity style={styles.btnSubmit}>
-        <Text style={styles.textSubmit}>Cadastro</Text>
-      </TouchableOpacity>
-
+        <TouchableOpacity style={styles.btnSubmit}>
+          <Text style={styles.textSubmit}>Cadastro</Text>
+        </TouchableOpacity>
+      </View>
       <View style={styles.div}>
         <Text style={styles.textoteste}>Sobre </Text>
 
@@ -86,7 +87,7 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 38,
     textAlign: "center",
-    marginBottom: 305,
+    marginBottom: 105,
     marginTop: 50,
   },
   btnSubmit: {
@@ -102,4 +103,12 @@ const styles = StyleSheet.create({
     color: "#fff",
     fontSize: 18,
   },
+
+  btnGroup: {
+    width: '100%',
+    flexDirection: 'row',
+    justifyContent:'space-around',
+    marginBottom:40,
+    marginTop:50,
+  }
 });

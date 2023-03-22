@@ -91,5 +91,6 @@ const styles = StyleSheet.create({
   textRegister:{
     color:'#37C919',
     marginBottom: 500,
+    fontWeight:"bold",
   }
 });
